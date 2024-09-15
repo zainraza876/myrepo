@@ -6,6 +6,7 @@ pipeline {
             steps {
                 echo 'Hello World'
                 echo ' This is new Project'
+                echo 'Hi this is first multi branch code'
             }
         }
     }
