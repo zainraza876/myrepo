@@ -1,13 +1,13 @@
 pipeline{
 
 agent {
- docker {'image: node:16-alpine'}
+ docker {image 'node:16-alpine'}
 }
 
 stages {
    stage {'test'}
 {
-step {
+steps {
 sh "node - version"
 echo "This is new dymanic agent project"
 }
